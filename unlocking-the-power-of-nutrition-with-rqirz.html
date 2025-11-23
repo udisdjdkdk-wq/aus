@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <meta name="keywords" content="food, recipes, cooking, cuisine, ingredients, meals, dining, culinary, gastronomy, kitchen, chef, healthy, nutrition, gourmet, flavors, dishes, baking, vegetarian, vegan, desserts, appetizers, breakfast, lunch, dinner, snacks, drinks, beverages, organic, seasonal, international" />
+        <meta name="description" content="Discover mouth-watering recipes and culinary inspiration at our food website, where we celebrate the art of cooking with diverse flavors and healthy ingredients. Explore our vast collection of easy-to-follow recipes, meal planning tips, and expert cooking advice to create delicious homemade meals for any occasion. Join our vibrant community of food lovers and embark on a flavorful journey that will tantalize your taste buds and elevate your kitchen skills." />
+
+        <title>Savor the Flavor of Life with RQIRZ</title>
+
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+        <link rel='stylesheet' href='css/boxicons.min.css'>
+        <link rel="stylesheet" href="css/aos.css">
+        <link rel="stylesheet" href="css/bootstrap-icons.css">
+        <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    </head>
+    <body>
+    
+    <!-- Header Block: Asymmetric Split Navigation with Floating Search -->
+<header class="header-nav-split lvermvi" id="header-main-navigation">
+    <div class="header-container">
+    <!-- Brand Section -->
+    <div class="header-brand-section">
+        <a href="index.html" class="brand-logo-link">
+        <div class="brand-icon">
+            <svg viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="25" cy="25" r="20" stroke="currentColor" stroke-width="3"/>
+            <path d="M25 15 L25 35 M15 25 L35 25" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            </svg>
+        </div>
+        <span class="brand-name">RQIRZ</span>
+        </a>
+    </div>
+
+    <!-- Desktop Navigation -->
+    <nav class="desktop-nav lvermvi" aria-label="Main navigation">
+        <ul class="nav-menu-list">
+        <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+            <span class="nav-link-underline"></span>
+        </li>
+        <li class="nav-item has-dropdown">
+            <button class="nav-link dropdown-trigger" aria-expanded="false" aria-haspopup="true">
+            Pages
+            <svg class="dropdown-arrow" width="12" height="8" viewBox="0 0 12 8" fill="none">
+                <path d="M1 1.5L6 6.5L11 1.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+            </button>
+            <span class="nav-link-underline"></span>
+            <div class="dropdown-menu-new" aria-label="Pages submenu">
+            <a href="experience-culinary-excellence-with-rqirzs-dining-innovations.html" class="dropdown-item">Experience Culinary Excellence with RQIRZ's Dining Innovations</a>
+            <a href="unlocking-the-power-of-nutrition-with-rqirz.html" class="dropdown-item">Unlocking the Power of Nutrition with RQIRZ</a>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+            <span class="nav-link-underline"></span>
+        </li>
+        <li class="nav-item">
+            <a href="reviews.html" class="nav-link">Testimonials</a>
+            <span class="nav-link-underline"></span>
+        </li>
+        <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+            <span class="nav-link-underline"></span>
+        </li>
+        </ul>
+    </nav>
+
+    <!-- Search Section -->
+    <div class="header-search-section lvermvi">
+        <form action="order.php" method="GET" class="search-form" role="search">
+        <input 
+            type="search" 
+            name="query" 
+            class="search-input" 
+            placeholder="Search..."
+            aria-label="Search our website"
+            autocomplete="off"
+        />
+        <button type="submit" class="search-button" aria-label="Search">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+            <circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="2"/>
+            <path d="M12.5 12.5L17 17" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+        </button>
+        </form>
+    </div>
+
+    <!-- Mobile Hamburger -->
+    <button class="hamburger-menu" aria-label="Toggle mobile menu" aria-expanded="false">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+    </button>
+    </div>
+
+    <!-- Mobile Navigation Overlay -->
+    <div class="mobile-nav-overlay">
+    <nav class="mobile-nav" aria-label="Mobile navigation">
+        <div class="mobile-nav-header">
+        <span class="mobile-nav-title">Menu</span>
+        <button class="mobile-close" aria-label="Close mobile menu">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+        </button>
+        </div>
+        
+        <ul class="mobile-menu-list">
+        <li class="mobile-nav-item">
+            <a href="index.html" class="mobile-nav-link">Home</a>
+        </li>
+        <li class="mobile-nav-item mobile-has-dropdown">
+            <button class="mobile-nav-link mobile-dropdown-trigger">
+            Pages
+            <svg class="mobile-dropdown-arrow" width="12" height="8" viewBox="0 0 12 8">
+                <path d="M1 1.5L6 6.5L11 1.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+            </button>
+            <div class="mobile-dropdown-menu-new">
+            <a href="experience-culinary-excellence-with-rqirzs-dining-innovations.html" class="mobile-dropdown-item">Experience Culinary Excellence with RQIRZ's Dining Innovations</a>
+            <a href="unlocking-the-power-of-nutrition-with-rqirz.html" class="mobile-dropdown-item">Unlocking the Power of Nutrition with RQIRZ</a>
+            </div>
+        </li>
+        <li class="mobile-nav-item">
+            <a href="contact.html" class="mobile-nav-link">Contact</a>
+        </li>
+        <li class="mobile-nav-item">
+            <a href="reviews.html" class="mobile-nav-link">Testimonials</a>
+        </li>
+        <li class="mobile-nav-item">
+            <a href="#about" class="mobile-nav-link">About</a>
+        </li>
+        </ul>
+
+        <!-- Mobile Search -->
+        <div class="mobile-search-section lvermvi">
+        <form action="order.php" method="GET" class="mobile-search-form">
+            <input 
+            type="search" 
+            name="query" 
+            class="mobile-search-input" 
+            placeholder="Search..."
+            aria-label="Search our website"
+            />
+            <button type="submit" class="mobile-search-button" aria-label="Search">
+            <svg width="18" height="18" viewBox="0 0 20 20" fill="none">
+                <circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="2"/>
+                <path d="M12.5 12.5L17 17" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+            </button>
+        </form>
+        </div>
+    </nav>
+    </div>
+</header>
+
+<script>
+// Header Navigation JavaScript
+(function() {
+    const header = document.querySelector('.header-nav-split');
+    const hamburger = document.querySelector('.hamburger-menu');
+    const mobileOverlay = document.querySelector('.mobile-nav-overlay');
+    const mobileClose = document.querySelector('.mobile-close');
+    const mobileLinks = document.querySelectorAll('.mobile-nav-link');
+    
+    // Desktop Dropdown
+    const dropdownTriggers = document.querySelectorAll('.dropdown-trigger');
+    dropdownTriggers.forEach(trigger => {
+    trigger.addEventListener('click', (e) => {
+        e.preventDefault();
+        const parent = trigger.closest('.nav-item');
+        const isOpen = parent.classList.contains('dropdown-open');
+        
+        // Close all dropdowns
+        document.querySelectorAll('.nav-item').forEach(item => {
+        item.classList.remove('dropdown-open');
+        const btn = item.querySelector('.dropdown-trigger');
+        if (btn) btn.setAttribute('aria-expanded', 'false');
+        });
+        
+        // Toggle current
+        if (!isOpen) {
+        parent.classList.add('dropdown-open');
+        trigger.setAttribute('aria-expanded', 'true');
+        }
+    });
+    });
+    
+    // Close dropdown when clicking outside
+    document.addEventListener('click', (e) => {
+    if (!e.target.closest('.has-dropdown')) {
+        document.querySelectorAll('.nav-item').forEach(item => {
+        item.classList.remove('dropdown-open');
+        const btn = item.querySelector('.dropdown-trigger');
+        if (btn) btn.setAttribute('aria-expanded', 'false');
+        });
+    }
+    });
+    
+    // Mobile Menu Toggle
+    function openMobileMenu() {
+    mobileOverlay.classList.add('mobile-nav-active');
+    hamburger.setAttribute('aria-expanded', 'true');
+    document.body.style.overflow = 'hidden';
+    }
+    
+    function closeMobileMenu() {
+    mobileOverlay.classList.remove('mobile-nav-active');
+    hamburger.setAttribute('aria-expanded', 'false');
+    document.body.style.overflow = '';
+    }
+    
+    hamburger.addEventListener('click', openMobileMenu);
+    mobileClose.addEventListener('click', closeMobileMenu);
+    
+    // Close mobile menu when clicking overlay
+    mobileOverlay.addEventListener('click', (e) => {
+    if (e.target === mobileOverlay) {
+        closeMobileMenu();
+    }
+    });
+    
+    // Close mobile menu when clicking links
+    mobileLinks.forEach(link => {
+    if (!link.classList.contains('mobile-dropdown-trigger')) {
+        link.addEventListener('click', closeMobileMenu);
+    }
+    });
+    
+    // Mobile Dropdown
+    const mobileDropdownTriggers = document.querySelectorAll('.mobile-dropdown-trigger');
+    mobileDropdownTriggers.forEach(trigger => {
+    trigger.addEventListener('click', (e) => {
+        e.preventDefault();
+        const parent = trigger.closest('.mobile-nav-item');
+        parent.classList.toggle('mobile-dropdown-open');
+    });
+    });
+    
+    // Sticky Header Effect
+    let lastScroll = 0;
+    window.addEventListener('scroll', () => {
+    const currentScroll = window.pageYOffset;
+    
+    if (currentScroll > 100) {
+        header.classList.add('header-scrolled');
+    } else {
+        header.classList.remove('header-scrolled');
+    }
+    
+    lastScroll = currentScroll;
+    });
+    
+    // Active Link Highlighting
+    const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+    document.querySelectorAll('.nav-link, .mobile-nav-link').forEach(link => {
+    const linkHref = link.getAttribute('href');
+    if (linkHref && linkHref.includes(currentPage)) {
+        link.classList.add('active-page');
+    }
+    });
+})();
+</script>
+
+<main>
+<!-- Hero Block: Asymmetric Split Design with Floating Elements -->
+<section class="hero-block-asymmetric cbrctq" id="about" data-aos="fade-in">
+    <!-- Header Navigation -->
+    <header class="hero-header cbrctq">
+    <nav class="nav-container">
+        <div class="nav-wrapper">
+        <div class="logo-section">
+            <svg class="logo-icon" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M24 4L44 14V34L24 44L4 34V14L24 4Z" fill="url(#gradient1)" stroke="#fff" stroke-width="2"/>
+            <circle cx="24" cy="24" r="8" fill="#fff"/>
+            <defs>
+                <linearGradient id="gradient1" x1="4" y1="4" x2="44" y2="44">
+                <stop offset="0%" stop-color="#00d4ff"/>
+                <stop offset="100%" stop-color="#7b2ff7"/>
+                </linearGradient>
+            </defs>
+            </svg>
+        </div>
+        
+        <div class="nav-links-desktop">
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        
+        <button class="hamburger-menu cbrctq" aria-label="Toggle menu">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+        </button>
+        </div>
+    </nav>
+    
+    <div class="mobile-menu cbrctq">
+        <div class="mobile-menu-content">
+        <a href="#contact" class="mobile-nav-link">Contact</a>
+        </div>
+    </div>
+    </header>
+    
+    <!-- Hero Content -->
+    <div class="hero-content-wrapper cbrctq">
+    <div class="hero-container">
+        <div class="hero-grid">
+        <!-- Left Content Section -->
+        <div class="hero-text-section" data-aos="fade-right" data-aos-delay="200">
+            <div class="floating-badge" data-aos="zoom-in" data-aos-delay="400">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13 10V3L4 14H11V21L20 10H13Z" fill="currentColor"/>
+            </svg>
+            <span>Industry Leading</span>
+            </div>
+            
+            <h1 class="hero-title">Savor the Flavor of Life with RQIRZ</h1>
+            
+            <div class="title-decoration cbrctq">
+            <svg width="120" height="8" viewBox="0 0 120 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 4C20 1 40 7 60 4C80 1 100 7 120 4" stroke="url(#lineGradient)" stroke-width="3" stroke-linecap="round"/>
+                <defs>
+                <linearGradient id="lineGradient" x1="0" y1="0" x2="120" y2="0">
+                    <stop offset="0%" stop-color="#ff6b9d"/>
+                    <stop offset="50%" stop-color="#c94ffd"/>
+                    <stop offset="100%" stop-color="#4d7cfe"/>
+                </linearGradient>
+                </defs>
+            </svg>
+            </div>
+            
+            <p class="hero-description">At RQIRZ, we are dedicated to bringing you the finest culinary experiences that celebrate the art of food. Our passion for gourmet delights and innovative flavors drives us to create unforgettable tastes that tantalize your taste buds. Join us on a gastronomic journey where quality meets creativity, and every meal is a moment to cherish.</p>
+            
+            <div class="hero-cta-group">
+            <a href="#contact" class="btn-primary">
+                <span>Get Started</span>
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 10H16M16 10L11 5M16 10L11 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </a>
+            <a href="#contact" class="btn-secondary">
+                <span>Learn More</span>
+            </a>
+            </div>
+            
+            <div class="hero-stats" data-aos="fade-up" data-aos-delay="600">
+            <div class="stat-item">
+                <div class="stat-number">10K+</div>
+                <div class="stat-label">Active Clients</div>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <div class="stat-number">98%</div>
+                <div class="stat-label">Satisfaction</div>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <div class="stat-number">24/7</div>
+                <div class="stat-label">Support</div>
+            </div>
+            </div>
+        </div>
+        
+        <!-- Right Visual Section -->
+        <div class="hero-visual-section" data-aos="fade-left" data-aos-delay="400">
+            <div class="visual-container">
+            <div class="floating-card card-1">
+                <svg class="card-icon" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="8" y="8" width="32" height="32" rx="8" fill="url(#cardGrad1)"/>
+                <path d="M18 24L22 28L30 20" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <defs>
+                    <linearGradient id="cardGrad1" x1="8" y1="8" x2="40" y2="40">
+                    <stop offset="0%" stop-color="#ff6b9d"/>
+                    <stop offset="100%" stop-color="#c94ffd"/>
+                    </linearGradient>
+                </defs>
+                </svg>
+                <div class="card-text">Quality Assured</div>
+            </div>
+            
+            <div class="floating-card card-2">
+                <svg class="card-icon" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="24" cy="24" r="16" fill="url(#cardGrad2)"/>
+                <path d="M24 16V24L29 29" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <defs>
+                    <linearGradient id="cardGrad2" x1="8" y1="8" x2="40" y2="40">
+                    <stop offset="0%" stop-color="#4d7cfe"/>
+                    <stop offset="100%" stop-color="#00d4ff"/>
+                    </linearGradient>
+                </defs>
+                </svg>
+                <div class="card-text">Fast Delivery</div>
+            </div>
+            
+            <div class="floating-card card-3">
+                <svg class="card-icon" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M24 8L32 16L24 24L16 16L24 8Z" fill="url(#cardGrad3)"/>
+                <path d="M24 24L32 32L24 40L16 32L24 24Z" fill="url(#cardGrad3)" opacity="0.7"/>
+                <defs>
+                    <linearGradient id="cardGrad3" x1="16" y1="8" x2="32" y2="40">
+                    <stop offset="0%" stop-color="#ffd93d"/>
+                    <stop offset="100%" stop-color="#ff8c42"/>
+                    </linearGradient>
+                </defs>
+                </svg>
+                <div class="card-text">Best Value</div>
+            </div>
+            
+            <div class="hero-image-container">
+                <div class="image-wrapper" style="background-image: url('img/image-background.png');">
+                <div class="image-overlay"></div>
+                </div>
+                <div class="geometric-decoration decoration-1"></div>
+                <div class="geometric-decoration decoration-2"></div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+    <!-- Background Elements -->
+    <div class="bg-decoration bg-circle-1"></div>
+    <div class="bg-decoration bg-circle-2"></div>
+    <div class="bg-decoration bg-circle-3"></div>
+    <div class="bg-mesh-gradient"></div>
+    </div>
+</section>
+
+<script>
+// Mobile Menu Toggle
+document.addEventListener('DOMContentLoaded', function() {
+    const hamburger = document.querySelector('.hamburger-menu');
+    const mobileMenu = document.querySelector('.mobile-menu');
+    const body = document.body;
+    
+    if (hamburger && mobileMenu) {
+    hamburger.addEventListener('click', function() {
+        hamburger.classList.toggle('active');
+        mobileMenu.classList.toggle('active');
+        body.classList.toggle('menu-open');
+    });
+    
+    // Close menu when clicking on a link
+    const mobileLinks = document.querySelectorAll('.mobile-nav-link');
+    mobileLinks.forEach(link => {
+        link.addEventListener('click', function() {
+        hamburger.classList.remove('active');
+        mobileMenu.classList.remove('active');
+        body.classList.remove('menu-open');
+        });
+    });
+    
+    // Close menu when clicking outside
+    mobileMenu.addEventListener('click', function(e) {
+        if (e.target === mobileMenu) {
+        hamburger.classList.remove('active');
+        mobileMenu.classList.remove('active');
+        body.classList.remove('menu-open');
+        }
+    });
+    }
+});
+</script>
+
+
+
+<section id="about" class="dykrcj bg-light py-5">
+    <div class="container pt-5">
+        <h2 class="text-center py-5">Unlocking the Power of Nutrition with RQIRZ</h2>
+        <div class="py-5">At RQIRZ, we believe that nutrition is more than just a necessity; it's a pathway to a healthier, more fulfilling life. Our goal is to empower you with the knowledge and tools needed to make informed choices about your diet. Good nutrition is the cornerstone of well-being, and it starts with understanding the balance of essential nutrients your body needs. By incorporating a variety of whole foods rich in vitamins, minerals, and antioxidants, you can boost your energy, enhance your mood, and support your overall health. At RQIRZ, we're dedicated to guiding you on this journey, offering expert advice and innovative products designed to fit seamlessly into your lifestyle. Whether you're seeking to optimize your performance, manage your weight, or simply live a healthier life, RQIRZ is here to support you every step of the way. Discover the power of nutrition with RQIRZ and transform your health today!.</div>
+    </div>
+</section>
+
+
+
+
+
+<section class="contact-form-section" id="contact-form-block" data-aos="fade-up">
+    <div class="contact-container">
+    <div class="contact-content-wrapper">
+        <!-- Header Side -->
+        <div class="contact-header-side" data-aos="fade-right" data-aos-delay="100">
+        <div class="contact-header-content">
+            <h2 class="contact-main-header">Get In Touch</h2>
+            <div class="contact-decoration-line"></div>
+        </div>
+        </div>
+        
+        <!-- Form Side -->
+        <div class="contact-form-side" data-aos="fade-left" data-aos-delay="200">
+        <div class="contact-form-card">
+            <form class="contact-form" method="POST" action="order.php">
+            <div class="form-group">
+                <label for="contact-name" class="form-label">Name</label>
+                <input 
+                type="text" 
+                id="contact-name" 
+                name="name" 
+                class="form-input" 
+                required 
+                autocomplete="name"
+                />
+            </div>
+            
+            <div class="form-group">
+                <label for="contact-email" class="form-label">Email</label>
+                <input 
+                type="email" 
+                id="contact-email" 
+                name="email" 
+                class="form-input" 
+                required 
+                autocomplete="email"
+                />
+            </div>
+            
+            <div class="form-group">
+                <label for="contact-message" class="form-label">Message</label>
+                <textarea 
+                id="contact-message" 
+                name="message" 
+                class="form-textarea" 
+                rows="5" 
+                required
+                ></textarea>
+            </div>
+            
+            <div class="form-submit-wrapper">
+                <button type="submit" class="form-submit-btn">
+                <span class="btn-text">Send Message</span>
+                <span class="btn-arrow">→</span>
+                </button>
+            </div>
+            </form>
+        </div>
+        </div>
+    </div>
+    </div>
+    
+    <!-- Background Decorative Elements -->
+    <div class="contact-bg-decoration contact-bg-circle-1"></div>
+    <div class="contact-bg-decoration contact-bg-circle-2"></div>
+    <div class="contact-bg-decoration contact-bg-blob"></div>
+</section>
+
+</main>
+<footer class="footer-wave-modern" id="footer-main-section">
+    <div class="footer-wave-divider">
+    <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"></path>
+    </svg>
+    </div>
+    
+    <div class="footer-container">
+    <div class="footer-content-grid">
+        <!-- Company Info Column -->
+        <div class="footer-column footer-brand-column" >
+        <div class="footer-brand-wrapper">
+            <h3 class="footer-brand-name">RQIRZ</h3>
+            <p class="footer-tagline">Delivering Excellence Since Day One</p>
+        </div>
+        
+        <div class="footer-contact-info">
+            <div class="footer-contact-item">
+            <svg class="footer-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <span>Australia, Adelaide, 368 Dietrich Ports</span>
+            </div>
+            
+            <div class="footer-contact-item">
+            <svg class="footer-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+            <a href="tel:61 781-121-9920" class="footer-phone-link">61 781-121-9920</a>
+            </div>
+        </div>
+        </div>
+
+        <!-- Quick Links Column -->
+        <div class="footer-column footer-links-column" >
+        <h4 class="footer-column-title">Quick Links</h4>
+        <nav class="footer-nav-list">
+            <a href="experience-culinary-excellence-with-rqirzs-dining-innovations.html" class="footer-nav-link">
+            <span class="footer-link-arrow">→</span>
+            <span>Experience Culinary Excellence with RQIRZ's Dining Innovations</span>
+            </a>
+            <a href="unlocking-the-power-of-nutrition-with-rqirz.html" class="footer-nav-link">
+            <span class="footer-link-arrow">→</span>
+            <span>Unlocking the Power of Nutrition with RQIRZ</span>
+            </a>
+        </nav>
+        </div>
+
+        <!-- Legal Links Column -->
+        <div class="footer-column footer-legal-column" >
+        <h4 class="footer-column-title">Legal</h4>
+        <nav class="footer-nav-list">
+            <a href="policy.html" class="footer-nav-link">
+            <span class="footer-link-arrow">→</span>
+            <span>Privacy Policy</span>
+            </a>
+            <a href="terms.html" class="footer-nav-link">
+            <span class="footer-link-arrow">→</span>
+            <span>Terms & Conditions</span>
+            </a>
+        </nav>
+        </div>
+
+        <!-- Newsletter Column -->
+        <div class="footer-column footer-newsletter-column" >
+        <h4 class="footer-column-title">Stay Connected</h4>
+        <p class="footer-newsletter-text">Follow us on social media for the latest updates and news.</p>
+        <div class="footer-social-icons">
+            <a href="#" class="footer-social-link" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+            </svg>
+            </a>
+            <a href="#" class="footer-social-link" aria-label="Twitter">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+            </svg>
+            </a>
+            <a href="#" class="footer-social-link" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+            </svg>
+            </a>
+            <a href="#" class="footer-social-link" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/>
+            </svg>
+            </a>
+        </div>
+        </div>
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom" >
+        <div class="footer-bottom-content">
+        <p class="footer-copyright">© 2025 All Rights Reserved</p>
+        <div class="footer-bottom-links">
+            <a href="policy.html" class="footer-bottom-link">Privacy Policy</a>
+            <span class="footer-separator">•</span>
+            <a href="terms.html" class="footer-bottom-link">Terms & Conditions</a>
+        </div>
+        </div>
+    </div>
+    </div>
+</footer>
+
+
+
+    <script type="text/javascript" src="js/popper.js"></script><script> window.start.init({Palette:"palette1",Mode:"banner bottom",Time:"0", Message: "We use cookies to improve the site and its user experience. By continuing to use the site, you agree to the use of cookies. You can always disable cookies in your browser settings.", ButtonText: "Accept", LinkText: "Learn more"})</script>
+        
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <script>AOS.init();</script>
+    </body>
+</html>
